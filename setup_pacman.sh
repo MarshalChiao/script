@@ -47,6 +47,7 @@ sudo pacman -S --noconfirm nvm
 sudo pacman -S --noconfirm vim
 sudo pacman -S --noconfirm neovim
 sudo pacman -S --noconfirm telegram-desktop
+# screen shot
 sudo pacman -S --noconfirm flameshot
 sudo pacman -S --noconfirm tree
 sudo pacman -S --noconfirm i3
