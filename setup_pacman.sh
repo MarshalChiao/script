@@ -90,5 +90,13 @@ if [ ! -d $HOME/.oh-my-zsh ]; then
   sudo chsh -s /bin/zsh
 fi
 
+# install maven
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+cd visual-studio-code-bin/
+makepkg -s
+sudo pacman -U visual-studio-code-bin-*.pkg.tar.xz
+cd ../ && sudo rm -rfv visual-studio-code-bin/
+
+
 
 echo 'please reboot!'
