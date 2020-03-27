@@ -58,7 +58,10 @@ sudo pacman -S --noconfirm zsh
 sudo pacman -S --noconfirm base-devel
 sudo pacman -S --noconfirm the_silver_searcher
 sudo pacman -S --noconfirm autojump
+# install wps
 sudo pacman -S --noconfirm wps-office
+sudo pacman -S --noconfirm ttf-wps-fonts
+
 
 # install google-chrome
 if [ ! -d $HOME/google-chrome  ]; then
