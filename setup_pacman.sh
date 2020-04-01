@@ -61,6 +61,10 @@ sudo pacman -S --noconfirm autojump
 # install wps
 sudo pacman -S --noconfirm wps-office
 sudo pacman -S --noconfirm ttf-wps-fonts
+# VS Code 编辑器
+sudo pacman -S --noconfirm visual-studio-code-bin
+# PostMan
+sudo pacman -S --noconfirm postman-bin
 
 
 # install google-chrome
