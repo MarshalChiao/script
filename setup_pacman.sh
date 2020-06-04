@@ -49,6 +49,8 @@ sudo pacman -S --noconfirm neovim
 sudo pacman -S --noconfirm telegram-desktop
 # screen shot
 sudo pacman -S --noconfirm flameshot
+# screen recording
+sudo pacman -S --noconfirm simplescreenrecorder
 sudo pacman -S --noconfirm tree
 sudo pacman -S --noconfirm i3
 sudo pacman -S --noconfirm fcitx
