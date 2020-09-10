@@ -35,6 +35,8 @@ sudo pacman -S --noconfirm htop
 sudo pacman -S --noconfirm atop
 sudo pacman -S --noconfirm iotop
 sudo pacman -S --noconfirm iftop
+# dig command
+sudo pacman -S --noconfirm bind
 sudo pacman -S --noconfirm nethogs
 sudo pacman -S --noconfirm ethtool
 sudo pacman -S --noconfirm dstat
