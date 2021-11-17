@@ -70,6 +70,8 @@ sudo pacman -S --noconfirm visual-studio-code-bin
 # PostMan
 sudo pacman -S --noconfirm postman-bin
 
+# if installed yay, you can
+yay -S --noconfirm google-chrome
 
 # install google-chrome
 if [ ! -d $HOME/google-chrome  ]; then
@@ -95,7 +97,8 @@ export XMODIFIERS=\"@im=fcitx\"" > ~/.xprofile
 fi
 
 # install oh-my-zsh
-# https://github.com/robbyrussell/oh-my-zsh
+# sudo pacman -S --noconfirm oh-my-zsh
+# https://github.com/ohmyzsh/ohmyzsh
 if [ ! -d $HOME/.oh-my-zsh ]; then
   echo -e "\nInstalling oh-my-zsh..."
   curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
